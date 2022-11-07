@@ -3,4 +3,31 @@
   <groupId>com.morso777</groupId>
   <artifactId>rerun</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+   			<dependency>
+    		<groupId>com.aventstack</groupId>
+    		<artifactId>extentreports</artifactId>
+    		<version>3.1.5</version>
+			</dependency>
+  
+  			<dependency>
+             	<groupId>org.seleniumhq.selenium</groupId>
+             	<artifactId>selenium-java</artifactId>
+            	<version>4.0.0</version>
+            </dependency>
+            
+          <dependency>
+              <groupId>org.seleniumhq.selenium</groupId>
+              <artifactId>selenium-server</artifactId>
+              <version>3.141.59</version>
+          </dependency>
+          
+          <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.8.8</version>
+        </dependency>
+  
+  </dependencies>
 </project>
